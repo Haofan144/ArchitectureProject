@@ -1,4 +1,4 @@
-#!/home/haofan/anaconda3/bin/python
+
 import array
 import multiprocessing
 import random
