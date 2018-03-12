@@ -16,5 +16,5 @@ function usage {
 if [ $# -lt 2 ]; then
     usage
 else
-sudo docker run --privileged deapdocker perf stat -e instructions,cycles,branch-misses,L1-dcache-load-misses,L1-icache-load-misses,LLC-load-misses,LLC-store-misses python /architecture/onemax.py "$1" "$2"
+sudo docker run --privileged deapfile perf stat -e instructions,cycles,branch-misses,L1-dcache-load-misses,L1-icache-load-misses,LLC-load-misses,LLC-store-misses python /architecture/onemax.py "$1" "$2"
 fi 
