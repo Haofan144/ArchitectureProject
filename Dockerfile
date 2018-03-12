@@ -9,7 +9,7 @@ RUN apt-get -y update && \
     apt-get -y install git-core git wget unzip vim && \
     apt-get -y install python python-pip python-setuptools && \
     apt-get -y install python-numpy python-scipy python-matplotlib ipython && \
-    apt-get -y install linux-tools-KERNEL_VERSION
+    apt-get -y install linux-tools-`uname -r`
 
 RUN pip install --upgrade pip
 
