@@ -5,7 +5,7 @@
 #./setup/sh
 
 #get local computer's kernel version 
-kernel_version='uname -r'
+kernel_version=`uname -r`
 echo "The kernel version of this computer is: ${kernel_version}"
 
 #Download Dockerfile and onemax.py from my github https://github.com/Haofan144/ArchitectureProject.git
